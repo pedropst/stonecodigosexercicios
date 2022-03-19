@@ -13,3 +13,4 @@ altura = float(input("Qual é a altura do triângulo? "))
 area = (base*altura)/2
 
 print(f"A área desse triângulo é: {area} unidades²")
+

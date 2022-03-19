@@ -12,11 +12,7 @@ a saída deve ser
 #------------------------------------ RESPOSTA
 
 dic = {"matemática": 81, "física": 83, "química": 87}
-# sorted_dic = {}
+sorted_list = sorted(dic.items(), key=lambda x: x[1], reverse=True)
+sorted_dic = dict(sorted_list)
 
-# lista = list(dic.values())
-# lista.sort()
-
-
-
-print(sorted(dic.items(), key=lambda x: x[1]))
+print(sorted_dic)

@@ -16,3 +16,4 @@ sigla = input("Digite a sigla do estado: ")
 print(f"O nome completo do estado é {estados[sigla.upper()]}")
 
 # .upper() só para garantir que quando digitado, por exemplo, ms ou Ms ou MS fique sempre com o padrão MS.
+
